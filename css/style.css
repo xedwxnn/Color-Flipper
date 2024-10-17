@@ -5,10 +5,13 @@
 }
 
 #botones {
-    width: 100px;
-    height: 100px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: black;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
 }
