@@ -6,14 +6,15 @@
     <title>Color Flipper</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/icon/icon.png">
-    <script src="main.js" defer></script>
+    <script src="/main.js" defer></script>
 </head>
+
 <body>
     <div id="botones">
-        <button id="rojo">Rojo</button>
-        <button id="amarillo">Amarillo</button>
-        <button id="azul">Azul</button>
-        <button id="random">Random</button>
+        <button id="rojo" onclick="setColor('red')">Rojo</button>
+        <button id="amarillo" onclick="setColor('yellow')">Amarillo</button>
+        <button id="azul" onclick="setColor('blue')">Azul</button>
+        <button id="random" onclick="setRandomColor()">Random</button>
     </div>
 </body>
 </html>
