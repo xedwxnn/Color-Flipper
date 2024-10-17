@@ -4,14 +4,32 @@
     box-sizing: border-box;
 }
 
-#botones {
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
 button {
-    border: none;
-    background-color: transparent;
-    border-radius: 10px;
+    margin: 30px;
+    font-size: 20px;
+    border: 2px solid rgb(89, 0, 255);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    text-shadow: 0 0 4px rgba(255, 255, 255, 1);
+}
+
+#botones {
+    background-color: rgba(20, 20, 20);;
+    border: 4px solid rgb(89, 0, 255);
+    border-radius: 30px;
 }
