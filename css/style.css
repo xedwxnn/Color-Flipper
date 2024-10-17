@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-div {
+#botones {
+    width: 100px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: black;
 }
