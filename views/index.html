@@ -10,11 +10,16 @@
 </head>
 
 <body>
-    <div id="botones">
-        <button id="rojo" onclick="setColor('red')">Rojo</button>
-        <button id="amarillo" onclick="setColor('yellow')">Amarillo</button>
-        <button id="azul" onclick="setColor('blue')">Azul</button>
-        <button id="random" onclick="setRandomColor()">Random</button>
+    <div class="container">
+        <div class="wrapper">
+            <div id="buttons">
+                <button id="red" onclick="setColor('#f44336')"></button>
+                <button id="purple" onclick="setColor('#673ab7')"></button>
+                <button id="blue" onclick="setColor('#3498db')"></button>
+            </div>
+            <button id="square"></button>
+            <p id="currentColor">#171717</p>
+        </div>
     </div>
 </body>
 </html>
